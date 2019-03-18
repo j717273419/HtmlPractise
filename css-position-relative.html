@@ -1,0 +1,53 @@
+<html>
+<head>
+<link  rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap@3.4.1/dist/css/bootstrap.min.css"/>
+<style>
+div.container {
+margin-top:200px;
+}
+.row .list{
+	height:100px;
+	border:1px solid purple;
+}
+.box{
+	height:0px;
+}
+.checkflag {
+    color: darkgreen;
+    position: relative;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    left: 92%;
+}
+</style>
+
+</head>
+<body>
+<h1><center>css使用相对定位positin relative实现在元素右上角布局，兼容不同窗口大小</center></h1>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 list">
+我是一个div
+<div class="box"><div class="checkflag">abc</div></div>
+</div>
+<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 list">
+我是一个div
+<div class="box"><div class="checkflag">abc</div></div>
+</div>
+<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 list">
+我是一个div
+<div class="box"><div class="checkflag">abc</div></div>
+</div>
+<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 list">
+我是一个div
+<div class="box"><div class="checkflag">abc</div></div>
+</div>
+<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 list">
+我是一个div
+<div class="box"><div class="checkflag">abc</div></div>
+</div>
+</div>
+</div>
+</body>
+</html>
